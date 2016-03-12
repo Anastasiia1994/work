@@ -1,0 +1,59 @@
+html,body{margin:0px}
+body{background-image:url(http://qdpro.com.ua/themes/genesis/genesis_SUBTHEME/css/images/mosaic.png);}
+h1{font-size:25px;
+text-align:center;
+color:#551A8B}
+.form-row {
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+.form-row input {
+	float: right;
+	height: 19px;
+	line-height: 19px;
+	margin: 0px;
+	padding: 0px 5px;
+	width: 287px;
+	border: 1px solid #ABADB3;
+}
+
+.reg-form {
+	width: 416px;
+	margin: 0 auto;
+}
+
+.form-row textarea {
+	height: 90px;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 0px 5px;
+    width: 404px;
+    border: 1px solid #ABADB3;
+}
+
+.form-row input[type=submit] {
+	padding:5px;
+	height:25px;
+	width:100%;
+	line-height: 10px;
+	background: #337AB7;
+	color:white;
+}
+
+.form-row input[type=submit]:hover {
+	background:#286090;
+}
+.form-gender input {
+float: right;
+	height: 19px;
+	line-height: 19px;
+	margin: 0px;
+	margin-bottom:15px;
+	padding: 0px 5px;
+	width: 287px;
+	border: 1px solid #ABADB3;
+
+* {
+	font-family:arial;
+	font-size:12pt;
+}

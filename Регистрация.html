@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta name ="author" content="Анастасия">
+		<title>Регистрация</title>
+		<link type="text/css" rel="stylesheet" href="registr.css">
+	</head>
+	<body>
+<h1>Форма регистрации</h1>
+	<form method='post' class='reg-form'>
+
+		<div class='form-row'>
+			<label for='form_fname'>Имя:</label>
+    		<input type='text' id='form_fname' name='first_name' placeholder="Введите имя">
+  		</div>
+
+  		<div class='form-row'>
+    		<label for='form_sname'>Фамилия: </label>
+    		<input type='text' id='form_sname' name='second_name'placeholder="Введите фамилию">
+		</div>
+		<div class='form-row'>
+			<label for='form_tname'>Отчество:</label>
+    		<input type='text' id='form_tname' name='third_name'placeholder="Введите отчество">
+  		</div>
+		<div class='form-row'>
+			<label for='login'>Логин:</label>
+    		<input type='text' id='login' name='login' placeholder="Введите логин">
+  		</div>
+		<div class='form-row'>
+			<label for='form_email'>Email: </label>
+			<input type='email' id='form_email' name='email' placeholder="Введите email">
+		</div>
+		<div class='form-row'>
+			<label for='password'>Пароль:</label>
+    		<input type='password' id='password' name='password' placeholder="Введите пароль">
+  		</div>
+		<div class='form-row'>
+			<label for='password'>Подтвердите пароль:</label>
+    		<input type='password' id='password' name='password' placeholder="Повторите пароль">
+  		</div>
+		<div class='form-row'>
+			<label for='form_phone'>Телефон:</label>
+			<input type='text' id='form_phone' name='phone'placeholder="Введите номер телефона">
+		</div>
+	<div class='form-gender'>	
+Выберите свой возраст:<br><br>
+	<label for='1_18'>До 18</label><input type='radio' name='age' value='1_18' checked> <br><br>
+	<label for='19_21'>19 - 21</label><input type='radio' name='age' value='19_21'> <br><br>
+	<label for='22_29'>22 - 29</label><input type='radio' name='age' value='22_29'> <br><br>
+	<label for='30_45'>30 - 45</label><input type='radio' name='age' value='30_45'><br><br>
+	<label for='45_100'>Больше 45</label><input type='radio' name='age' value='45_100'><br><br>
+	</div>
+	<div class='form-row'>
+	Выберите свой пол:<br><br>
+	женский <input type='checkbox' name='gender' value='female' checked><br><br>
+	мужской <input type='checkbox' name='gender' value='male'><br><br>
+	</div>
+	<div class='form-row'>
+	Выберите вашу страну:<select name='country'>
+		<option value='country'>Ваша страна</option>
+		<option value='ua'>Украина</option>
+		<option value='gr'>Германия</option>
+		<option value='en'>Англия</option>
+		<option value='ca'>Канада</option>
+		<option value='usa'>США</option>
+		<option value='pl'>Польша</option>
+		<option value='it'>Италия</option>
+		<option value='fr'>Франция</option>
+		<option value='ch'>Китай</option>
+		<option value='ja'>Япония</option>
+		<option value='au'>Австралия</option>
+		<option value='in'>Индия</option>
+	</select><br><br>
+	</div>
+		<div class='form-row'>
+			<label for='form_about'>Немного личной информации:</label>
+			<textarea id='form_about' name='about'></textarea>
+		</div>
+
+		<div class="form-row">
+			<input type="submit" value='Зарегестрироваться!'>
+		</div>
+
+	</form>
+	</body>
+</html>
